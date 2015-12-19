@@ -201,7 +201,7 @@ p.text-intro { font-size: 18px; }
 }
 
 nav { height: 85px; margin-top: 30px; position: relative; }
-.logo-holder { background: image-url("butt-icon.svg") no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
+.logo-holder { background: image-url("logo_maraboute.png") no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
 .responsive-logo { display: hidden; }
 header { background-color: #f4f5fc; }
 header ul { padding-top: 35px; }
@@ -209,17 +209,17 @@ header ul li { list-style: none; float: left; text-transform: uppercase; letter-
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .r_spacer { margin-right: 180px; }
 .intro { padding: 115px 0; background-color: #fbfbfb; }
-.section-1 { background: image-url("jeans_nice.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-2 { background: image-url("butt2.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-3 { background: image-url("hot-chick.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-4 { background: image-url("artistic_butt.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+.section-1 { background: image-url("bracelet-marabou1.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-2 { background: image-url("bracelet-maraboute2.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-3 { background: image-url("bracelet-maraboute3.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-4 { background: image-url("marabout-woman.png") no-repeat center center; -webkit-background-size: 50%; -moz-background-size: 50%; -o-background-size: 50%; background-size: 50%; height: 600px; }
 .section-text { position: relative; height: 600px; }
 .nopadding { padding: 0 !important; margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 8% auto 0 auto; }
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
-.seat-red { background: image-url("jeans_tissue.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.seat-black { background: image-url("back-pocket.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.frame-red { background: image-url("Ariana-Grande.png") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.seat-red { background: image-url("african_masks1.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.seat-black { background: image-url("african_masks2.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.frame-red { background: image-url("african_masks3.jpg") no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
 .arrow { background: image-url("arrow.png") no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
 .logo-1 { width: 113px; height: 118px; background: image-url("trousers.svg"); position: absolute; left: 50%; top: 40%; margin-left: -56px; margin-top: -59px;  color: white;}
@@ -277,13 +277,13 @@ footer p { font-size: 13px; margin: 0; }
 
 .punchline{
     padding-top: 100px;
-    color: white;
-    font-size: 3em;
+    color: black;
+    font-size: 2.5em;
     font-weight: 600;
 }
 
 .booba {
-  background: image-url("booba2.jpeg") no-repeat top center #f4f5fc;
+  background: image-url("marabout3.jpg") no-repeat top center #f4f5fc;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -293,7 +293,7 @@ footer p { font-size: 13px; margin: 0; }
 }
 
 .booba-vp {
-    background: image-url("booba2.jpeg") no-repeat top center #f4f5fc;
+    background: image-url("marabout3.jpeg") no-repeat top center #f4f5fc;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -308,13 +308,29 @@ footer p { font-size: 13px; margin: 0; }
 }
 
 .diams {
-  background: image-url("diams_bikeuse.jpg") no-repeat top center #f4f5fc;
+  background: image-url("marabout2.jpg") no-repeat top center #f4f5fc;
+  background-position: center center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
    height: 685px;
 
+}
+
+.marabout4 {
+  background: image-url("marabout4.jpg") no-repeat top center #f4f5fc;
+  background-position: center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 685px;
+
+}
+
+.order {
+ margin-bottom: 50px;
 }
 
 #insta {
@@ -325,7 +341,7 @@ footer p { font-size: 13px; margin: 0; }
 }
 
 .trousers {
-  height: 100px;
+  height: 180px;
 }
 
 #payment_button{
@@ -336,3 +352,10 @@ footer p { font-size: 13px; margin: 0; }
   font-size: 1.5em;
 }
 
+.above {
+  display: block;
+}
+
+.padded {
+  padding: 20px;
+}

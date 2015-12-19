@@ -14,5 +14,6 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require jquery.flexslider
+//= require bootstrap-select
 //= require turbolinks
 //= require_tree .

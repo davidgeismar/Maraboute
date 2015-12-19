@@ -1,4 +1,25 @@
 //FLEXSLIDER
+// selectpicker
+// $(document).ready(function(){
+//   $('select').selectpicker();
+// })
+
+$(document).ready(function(){
+  $(".stripe-button-el").prop('disabled', true);
+
+
+  $("select").change(function(){
+      console.log("hello");
+      if (($("#product_color").val() != "") && ($("#product_material").val() != "")){
+        console.log("biatch")
+        $(".stripe-button-el").removeAttr("disabled");
+      }
+      else{
+        $(".stripe-button-el").prop('disabled', true);
+      }
+    })
+})
+
 $(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide",

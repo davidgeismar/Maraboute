@@ -26,11 +26,15 @@ gem 'rails_config',               '~> 0.4.2'
 gem 'redcarpet',                  '~> 3.3.1'
 gem 'sass-rails',                 '~> 5.0'
 gem 'uglifier',                   '~> 2.7.0'
+gem 'bootstrap-select-rails'
+gem 'simple_form'
 gem 'modernizr-rails'
 gem "money-rails"
 gem "stripe"
 gem 'pg'
 gem "figaro"
+gem 'enumerize'
+
 
 gem 'sinatra',                  :require => nil
 

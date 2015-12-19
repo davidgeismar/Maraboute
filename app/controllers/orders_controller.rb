@@ -5,7 +5,7 @@ class OrdersController < ApplicationController
   end
 
   def create
-    @order = Order.create(email: params[:stripeEmail], amount: 40, state: "pending")
+    @order = Order.create(email: params[:stripeEmail], amount: 20, state: "pending")
     @amount = @order.amount_cents
 
     customer = Stripe::Customer.create(
@@ -17,7 +17,7 @@ class OrdersController < ApplicationController
     charge = Stripe::Charge.create(
       customer: customer.id,
       amount:       @amount,  # in cents
-      description:  "Paiement pour B2B-jeans, Numéro de commande : #{@order.id}",
+      description:  "Paiement pour bracelet maraboute, Numéro de commande : #{@order.id}",
       currency:     'eur'
     )
 
