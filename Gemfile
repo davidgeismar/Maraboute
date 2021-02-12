@@ -7,7 +7,7 @@ end
 
 ruby '2.2.3'
 
-gem 'rails', '~> 4.2.3'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 
 gem 'activeadmin',                github: 'activeadmin'
 gem 'aws-sdk',                    '< 2.0'
