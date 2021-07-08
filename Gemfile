@@ -52,7 +52,7 @@ end
 
 group :test do
   gem 'guard-rspec'
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.3'
 end
 
 group :production do
