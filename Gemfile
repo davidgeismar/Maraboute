@@ -36,7 +36,7 @@ gem "figaro"
 gem 'enumerize'
 
 
-gem 'sinatra',                  :require => nil
+gem 'sinatra', '>= 2.2.0', :require => nil
 
 
 group :development, :test do
