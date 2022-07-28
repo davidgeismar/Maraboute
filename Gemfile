@@ -7,7 +7,7 @@ end
 
 ruby '2.2.3'
 
-gem 'rails', '~> 4.2.3'
+gem 'rails', '~> 5.2.8', '>= 5.2.8.1'
 
 gem 'activeadmin',                github: 'activeadmin'
 gem 'aws-sdk',                    '< 2.0'
@@ -41,7 +41,7 @@ gem 'sinatra',                  :require => nil
 
 group :development, :test do
 
-  gem 'annotate'
+  gem 'annotate', '>= 2.7.0'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'pry-byebug'
