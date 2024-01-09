@@ -56,7 +56,7 @@ group :test do
 end
 
 group :production do
-  gem 'puma'
+  gem 'puma', '>= 5.6.8'
   gem 'rack-timeout'
   gem 'rails_12factor'
 end
