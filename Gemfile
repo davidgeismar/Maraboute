@@ -7,14 +7,14 @@ end
 
 ruby '2.2.3'
 
-gem 'rails', '~> 4.2.3'
+gem 'rails', '~> 7.0.0'
 
 gem 'activeadmin',                github: 'activeadmin'
 gem 'aws-sdk',                    '< 2.0'
 gem 'bootstrap-sass',             '~> 3.3.3'
 gem 'bootstrap-switch-rails'
 gem 'flexslider-rails'
-gem 'turbolinks'
+gem 'turbolinks', '>= 5.0.0'
 
 
 
@@ -24,7 +24,7 @@ gem 'jquery-rails',               '~> 4.0.3'
 gem 'rails-i18n',                 '~> 4.0.3'
 gem 'rails_config',               '~> 0.4.2'
 gem 'redcarpet',                  '~> 3.3.1'
-gem 'sass-rails',                 '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'uglifier',                   '~> 2.7.0'
 gem 'bootstrap-select-rails'
 gem 'simple_form'
